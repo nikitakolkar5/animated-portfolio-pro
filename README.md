@@ -1,0 +1,2 @@
+# animated-portfolio
+Animated Portfolio Landing Page  Developed a modern and responsive portfolio landing page using HTML, CSS, and JavaScript. Implemented typing text animation with Typed.js to introduce dynamic personality. Included key sections such as a hero introduction, resume download functionality, and a contact section with social links. Optimized for clean layout, mobile responsiveness, and interactive user experience. Deployed the project using Netlify and version-controlled with GitHub.

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikita | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">Nikita</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text" data-aos="fade-right">
+        <h1>Hi, I’m Nikita</h1>
+<p>I am a <span class="typed-text"></span></p>
+<a href="resume/resume.pdf" class="btn" download target="_blank">Download Resume</a>
+
+
+        <h2>Hello, I'm Nikita 👋</h2>
+        <p>A passionate Java & Frontend Developer building modern web apps.</p>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+      <div class="hero-img" data-aos="fade-left">
+        <img src="images/profile.png" alt="Profile Image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a software developer skilled in Java, Spring Boot, and modern frontend frameworks like React. I love building responsive, performance-optimized applications.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" data-aos="zoom-in">
+          <h3>Animated Product Showcase</h3>
+          <p>A smooth animated product showcase using HTML, CSS transitions, and keyframes.</p>
+        </div>
+        <!-- Add more cards later -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <!-- <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </div>
+  </section> -->
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p>You can reach me at:</p>
+  <div class="contact-links">
+    <a href="mailto:nikita.yourname@email.com" target="_blank">📧 Email</a>
+    <a href="https://www.linkedin.com/in/nikita-kolkar/" target="_blank">🔗 LinkedIn</a>
+    <a href="https://github.com/your-github-username" target="_blank">💻 GitHub</a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Nikita Kolkar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed(".typed-text", {
+    strings: ["Java Developer", "Spring Boot Enthusiast", "React Lover", "AWS Learner"],
+    typeSpeed: 70,
+    backSpeed: 40,
+    loop: true
+  });
+</script>
+
+
+</body>
+</html>
